@@ -1,0 +1,1 @@
+gradlew clean sdk0:publishToMavenLocal && gradlew sdk0:publish

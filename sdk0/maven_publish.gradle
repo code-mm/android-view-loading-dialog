@@ -1,0 +1,20 @@
+apply plugin: "maven-publish"
+afterEvaluate {
+    publishing {
+        publications {       
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.ms'
+                artifactId = rootProject.name
+                version = 'latest-RELEASE'
+            }
+            debug(MavenPublication) {
+                // Applies the component for the debug build variant.
+                from components.debug
+                groupId = 'com.ms'
+                artifactId = rootProject.name
+                version = 'latest-RELEASE'
+            }
+        }
+    }
+}
