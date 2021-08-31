@@ -11,12 +11,12 @@ allprojects {
 
 ```groovy
 dependencies {
-    implementation 'com.github.m-maohuawei:am-view-loading-dialog:1.0.0'
+    implementation 'com.github.m-maohuawei:android-view-loading-dialog:latest.release'
 }
 ```
 
 
-[![Release](https://jitpack.io/v/m-maohuawei/am-view-loading-dialog.svg)](https://jitpack.io/#m-maohuawei/am-view-loading-dialog)
+[![Release](https://jitpack.io/v/m-maohuawei/android-view-loading-dialog.svg)](https://jitpack.io/#m-maohuawei/am-view-loading-dialog)
 
 
 
